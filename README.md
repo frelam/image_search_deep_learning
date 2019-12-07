@@ -12,3 +12,5 @@
    <div><br></div>
   <div>We apply CUDA libreary-python-interface to accerate similarity computation,which allow us to retrieval in 0.2s for 300 thousand images at a single GPU </div>
 <br></div>
+  
+  related paper“”
