@@ -14,3 +14,10 @@
 <br></div>
   
   related paper“”
+
+  performance can be improve in following:
+  1. when loading the database into gpu， the memory comsume is high because features are all loaded into memory， wating to be transfer into gpu's memory. some improvement can be done to free the memory in time after features is transfered into gpu.
+  
+  2. think about the situation of dealing with several requesets for client. some mutil-thread technic should be use here.
+  
+  3. 
