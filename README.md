@@ -14,6 +14,8 @@
 <br></div>
   
   related paper“”
+  
+  http://yts.gdut.edu.cn/patentEarlyWarningSce/pa/pages/index.html (project page)
 
   performance can be improve in following:
   1. when loading the database into gpu， the memory comsume is high because features are all loaded into memory， wating to be transfer into gpu's memory. some improvement can be done to free the memory in time after features is transfered into gpu.
