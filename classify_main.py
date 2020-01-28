@@ -1,5 +1,5 @@
 #!/usr/bin/env python2
-# Copyright (c) 2015-2016, NVIDIA CORPORATION.  All rights reserved.
+# Copyright (c) 2016-2020, LVHAOYU.  All rights reserved.
 
 """
 Classify an image using individual model files
@@ -231,6 +231,9 @@ def classify(net,transformer,image_files,batch_size=None):
         print
     '''
 def normolize(feat):
+    """
+    normolize the feature with gpu with cuda
+    """
     #feat_temp = np.vstack((feat, feat))
     feat = np.reshape(feat,(4096,1))
     a = cm.CUDAMatrix(feat)
